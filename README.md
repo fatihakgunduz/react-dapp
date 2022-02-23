@@ -13,3 +13,20 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+# Run it locally by
+
+```shell
+npx hardhat node
+```
+
+# Deploy contracts locally by
+```shell
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+# Start react app
+```shell
+npm start
+```
